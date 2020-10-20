@@ -4,9 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ClientesNovoPageRoutingModule } from './clientes-novo-routing.module';
+import { ClientesVisualizarPageRoutingModule } from './clientes-visualizar-routing.module';
 
-import { ClientesNovoPage } from './clientes-novo.page';
+import { ClientesVisualizarPage } from './clientes-visualizar.page';
 
 @NgModule({
   imports: [
@@ -14,8 +14,8 @@ import { ClientesNovoPage } from './clientes-novo.page';
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
-  ClientesNovoPageRoutingModule
+    ClientesVisualizarPageRoutingModule
   ],
-  declarations: [ClientesNovoPage]
+  declarations: [ClientesVisualizarPage]
 })
-export class ClientesNovoPageModule {}
+export class ClientesVisualizarPageModule {}
